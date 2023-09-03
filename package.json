@@ -25,5 +25,10 @@
 		"prettier": "3.0.3",
 		"prettier-eslint": "15.0.1",
 		"typescript": "^5.2.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-conventional-changelog"
+		}
 	}
 }
