@@ -12,6 +12,8 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@commitlint/cli": "17.7.1",
+		"@commitlint/config-conventional": "17.7.0",
 		"@typescript-eslint/eslint-plugin": "^6.5.0",
 		"@typescript-eslint/parser": "^6.5.0",
 		"commitizen": "4.3.0",
@@ -25,5 +27,10 @@
 		"prettier": "3.0.3",
 		"prettier-eslint": "15.0.1",
 		"typescript": "^5.2.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-conventional-changelog"
+		}
 	}
 }
