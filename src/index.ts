@@ -1,6 +1,5 @@
-console.log('hello,world!')
-
-function isTruthy(x) {
-	debugger
-	return Boolean(x)
+function say() {
+	console.log('hello, world')
 }
+
+say()
